@@ -124,7 +124,7 @@ function flappyGravity(height){
   const root = document.querySelector(":root");
   flappyHeight += 1.5;
   addEventListener("click",flappyJump);
-  addEventListener("touchstart",flappyJump);
+  // addEventListener("touchstart",flappyJump);
   root.style.setProperty("--height-from-js", `${height}px`);
 }
 function flappyJump(){
